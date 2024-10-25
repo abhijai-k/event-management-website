@@ -1,0 +1,63 @@
+/* src/components/Hero.css */
+.hero {
+    position: relative;
+    display: flex;
+    align-items: flex-start; /* Aligns text to the top */
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.8);
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent 20%, transparent 1%, rgba(0, 0, 0, 0.6));
+    z-index: 1; /* Places overlay above the image */
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 20px; /* Adjust position as needed */
+    z-index: 2; /* Places text above the overlay */
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .highlight {
+    color: #762bc6;
+    text-shadow: none; /* Remove shadow */
+    position: relative; /* Position relative for the outline effect */
+  }
+  .button {
+    margin-top: 20px; /* Space between the text and button */
+    padding: 10px 20px; /* Button padding */
+    font-size: 1.2rem; /* Button font size */
+    color: black; /* Text color */
+    background-color: #6921b5; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 100px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .button:hover {
+    background-color: darkviolet; /* Darker color on hover */
+  }
+  

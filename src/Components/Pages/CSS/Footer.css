@@ -1,0 +1,31 @@
+/* src/components/Footer.css */
+.footer {
+    color: #a4a4a4; /* White text color */
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Center align text */
+  }
+  
+  .footer-content {
+    margin-bottom: 20px; /* Space between content and bottom */
+  }
+  
+  .footer-content h4 {
+    color: #6921b5;
+    margin: 0; /* Remove margin */
+    font-size: 1.5rem; /* Font size for heading */
+  }
+  
+  .footer-content p {
+    margin: 5px 0; /* Space between paragraphs */
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Light border on top */
+    padding-top: 10px; /* Space above the bottom text */
+  }
+  
+  .footer-bottom p {
+    margin: 0; /* Remove margin */
+    font-size: 0.9rem; /* Smaller font size for copyright */
+  }
+  

@@ -1,0 +1,30 @@
+/* src/components/AboutUs.css */
+/* src/CSS/Offers.css */
+
+.offers {
+  padding: 50px 20px; /* Padding around the offers section */
+  text-align: center; /* Center align text */
+}
+
+.statistic {
+  display: inline-block; /* Allows boxes to sit next to each other */
+  margin: 20px; /* Space around each box */
+  padding: 20px; /* Inner spacing */
+  background-color: #1f1f1f; /* White background for stats */
+  border-radius: 100px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center; /* Center align text inside boxes */
+  width: 150px; /* Fixed width for uniformity */
+}
+
+.statistic h3 {
+  font-size: 2.5rem; /* Size for the statistics numbers */
+  margin: 0; /* Remove margin */
+  color: #6921b5; /* Highlight color */
+}
+
+.statistic p {
+  font-size: 1rem; /* Size for the description text */
+  margin: 0; /* Remove margin */
+  color: #a4a4a4; /* Gray color for text */
+}

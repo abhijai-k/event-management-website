@@ -1,0 +1,29 @@
+/* src/components/Features.css */
+.features {
+  padding: 50px 20px;
+  text-align: center; /* Center align text */
+}
+
+.feature-box {
+  margin: 20px auto; /* Space between boxes */
+  padding: 50px; /* Inner spacing */
+  background-color: #1f1f1f; /* White background for features */
+  border-radius: 80px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: fit-content; /* Adjust box width to content */
+  font-size: 1.2rem; /* Text size */
+  color: #f9f9f9; /* Color for text */
+}
+.feature-box1 {
+  margin: 20px auto; /* Space between boxes */
+  padding: 50px; /* Inner spacing */
+  background-color: rgb(77, 32, 104); /* White background for features */
+  border-radius: 80px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: fit-content; /* Adjust box width to content */
+  font-size: 1.2rem; /* Text size */
+  color: #f9f9f9;
+}
+.features p{
+  text-align: left;
+}
